@@ -1,0 +1,243 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta chargeset="UTF-8">
+        <meta http-equiv="X-UA-Comatiable" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio Website - Soham Sarkar</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/6c86a0cfda.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logosoham.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark"onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi,I'm <span>Soham</span><br>Sarkar From India</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-cal-1">
+                   <img src="user-Soham.jpg">
+                </div>
+                <div class="about-cal-2">
+                    <h1 class=sub-tittle>About Me</h1>
+                    <p>I am a Practical knowledge seeker.
+                        To work in an environment where
+                        my skills and knowledge reflect
+                        the growth of the company and
+                        enhance my
+                        knowledge as well
+                        as experience. Web
+                        development is a
+                        place where we
+                        can practically change the world
+                        with new possibilities. To
+                        make it possible
+                        some skills I learnt
+                        like NodeJS, Express, MongoDB,
+                        HTML, CSS, JavaScript, jQuery
+                        and Python.
+                    </p>
+                    <div class="tab-tittles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experiance</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UX/UI</span><br>Desiging Web/App Interfaces</li>
+                                <li><span>Web Developement</span><br>Web App Developement</li>
+                                <li><span>Editing</span><br>Photo Editing/Video Editing</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Current</span><br>Doing Projects on Web Developement</li>
+                                <li><span>2023-2024</span><br>Learned Basic C,Python,Java,Html,Css</li>
+                                <li><span>2022-2023</span><br>Learned Editing On Premier Pro,Filmora</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023</span><br>Admitted For B.Tech From MCKV Institute Of Enginerring</li>
+                                <li><span>2022</span><br>Higher Secondary From Uttarpara Model High School</li>
+                                <li><span>2020</span><br>Madhyamik From Uttarpara Model High School</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class=sub-tittle>My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Custom Website Design: Unique, visually stunning designs tailored to your brand
+                       Responsive Design: Mobile-friendly and tablet-friendly designs for a seamless user experience
+                       Website Redesign: Breathe new life into your existing website with a modern makeover
+                       E-commerce Solutions: Online stores designed to drive sales and growth
+                       Website Development: Expert coding and development to bring your design to life
+                       Website Maintenance: Ongoing support and updates to keep your site secure and running smoothly
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>As a seasoned UI/UX designer, I craft intuitive and user-centered interfaces that drive engagement and conversion. My services include:
+
+                        - User research and analysis
+                        - Wireframing and prototyping
+                        - Visual design and branding
+                        - Usability testing and iteration
+                        - Responsive design for web and mobile
+                        
+                        Let's create seamless digital experiences that delight your users and grow your business!
+                        
+                        Feel free to expand on this note to showcase your expertise and services in more detail. Good luck with your website!
+                        </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android"></i>
+                    <h2>App Design</h2>
+                    <p>I design intuitive, user-friendly, and engaging mobile apps that meet your business goals. My app design services include:
+
+                        - Research and analysis of your target audience
+                        - Wireframing and prototyping to visualize the app's layout and flow
+                        - User interface (UI) design that is both beautiful and functional
+                        - User experience (UX) design that ensures seamless navigation and interaction
+                        - Development of iOS and Android apps
+                        - Testing and iteration to ensure a polished final product
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Connect with the world, one tap at a time.</p>
+                        <a href="socialweather.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Vibes for every moment, mood, and memory.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png">
+                    <div class="layer">
+                        <h3>Online Shoping App</h3>
+                        <p>Discover, browse, and buy - all in one place.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>soham2507@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>6291227258</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100072154908024&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/itsmesoham25?igsh=emo1cjZ5a2J1dXF2"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/soham-sarkar-85a5a6247"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="my-cv.pdf" download class="btn btn2">Download My-CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your message"></textarea> 
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="sent"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-solid fa-copyright i1"></i> Soham .Made with by <i2 class="fa-solid fa-heart"></i2> Soham Sarkar</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+               tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right ="0";
+        }
+        function closemenu(){
+            sidemenu.style.right ="-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyfTeKQYonrZXeklXRY0NcymvOB4oKCsPPC-eKlaLbBDMnM7ehvjTDJ5BxNsG-Tdn7D/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const sent = document.getElementById("sent")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                sent.innerHTML = "Message Sent Successfully"
+                setTimeout(function(){
+                    sent.innerHTML=""
+
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+    </body>
+</html>
